@@ -1,0 +1,17 @@
+﻿cd "C:\Program Files\Oracle\Virtualbox"
+-------------------------------------------------------------------------------------------------------------------
+
+Method 1: VBoxManage setextradata “Type Your VM Name Here” VBoxInternal2/EfiGraphicsResolution 1280x720 (Recommended)
+-------------------------------------------------------------------------------------------------------------------
+
+Method 2: VBoxManage setextradata “Type Your VM Name Here” VBoxInternal2/EfiHorizontalResolution H  (Alternative)
+   VBoxManage setextradata “Type Your VM Name Here” VBoxInternal2/EfiVerticalResolution V
+
+methode 3: 
+terminal : 
+
+ Sudo /Library/Application\ Support/VMware\ Tools/vmware-resolutionset 1920 1080
+-------------------------------------------------------------------------------------------------------------------
+Resolutions to choose:
+  1280x720 | 1920x1080 | 2560x1440 | 2048x1080 | 3840x2160 | 5120x2880 | 1280x800 | 1280x1024 |1600x900 | 1440x900
+     HD  FHD     QHD          2K      4K          5K
